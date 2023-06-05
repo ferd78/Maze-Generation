@@ -1,10 +1,9 @@
 public class Cell {
-    // variables to describe its location in the grid:
-    public int x;
+    public int x; //coordinates of the cell while in the grid
     public int y;
 
-    public boolean top, bottom, left, right; // boolean variables for walls
-    public boolean visited, isCurrent; // condition variable for the current position of cell
+    public boolean top, bottom, left, right; // boolean variables which represents each side of a wall
+    public boolean visited, isCurrent; // condition variable for the current position of cell in the grid
 
     public Cell(int xNew, int yNew) {
         top = true;
